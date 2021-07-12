@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+<div th:fragment="logout">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+        <span class="navbar-text">
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item" id="principal-username"></li>
+                  <li class="nav-item"> with roles: </li>
+                  <li class="nav-item" id="principal-roles"></li>
+                </ul>
+            </div>
+        </span>
+        <span class="navbar-text">
+            <a class="nav-link active" aria-current="page" href="/logout">Logout</a>
+        </span>
+        </div>
+    </nav>
+</div>
+
+</body>
+</html>
